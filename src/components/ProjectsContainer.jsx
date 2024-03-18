@@ -15,6 +15,7 @@ const ProjectsContainer = () => {
         <a href="https://github.com/fabiohenriq31/repositorio-fabio" target="_blank"><span>Este Portfolio</span></a>
         </div>
         <div className="item-right">
+          <span className='react-icon'><FaReact /></span>
           <span className='sass-icon'><SiSass /></span>
           <span className='js-icon'><FaJsSquare /></span>
         </div>
