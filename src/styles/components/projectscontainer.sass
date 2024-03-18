@@ -1,0 +1,55 @@
+@use '../variables'
+.list-container
+    width: 100%
+    height: 200px
+    overflow-y: scroll
+    scrollbar-width: none
+    -ms-overflow-style: none
+    position: relative
+
+    &::-webkit-scrollbar
+        width: 0px
+
+.list-item
+    background-color: rgba(128, 128, 128, 0.5)
+    border: 1px solid #ccc
+    border-radius: 10px
+    padding: 10px
+    margin-bottom: 10px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.item-left
+    flex: 1
+    color: white
+
+.item-right
+    flex: 1
+    text-align: right
+
+    span
+        display: inline-block
+        width: 20px
+        height: 20px
+        background-size: cover
+        margin-left: 15px
+        text-decoration: none
+        color: variables.$gradient
+        font-size: 1.5rem
+a
+    text-decoration: none
+    color: white
+
+.js-icon
+    color: #F0DB4F
+.react-icon
+    color: #61DAFB
+.html-icon
+    color: #E44D26
+.css-icon
+    color: #1572B6
+.py-icon
+    color: #F0DB4F
+.sass-icon
+    color: #cd669a
