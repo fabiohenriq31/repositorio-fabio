@@ -12,7 +12,7 @@ const ProjectsContainer = () => {
     <div className="list-container">
     <div className="list-item">
         <div className="item-left">
-        <a href="https://github.com/fabiohenriq31/portfolio" target="_blank"><span>Este Portfolio</span></a>
+        <a href="https://github.com/fabiohenriq31/repositorio-fabio" target="_blank"><span>Este Portfolio</span></a>
         </div>
         <div className="item-right">
           <span className='sass-icon'><SiSass /></span>
