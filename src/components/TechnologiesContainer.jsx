@@ -5,7 +5,15 @@ import {
     DiNodejsSmall,
     DiMysql,
     DiReact,
+    DiDocker,
   } from "react-icons/di";
+
+  import { 
+      SiTypescript,
+      SiTailwindcss,
+      SiSass, 
+  } from "react-icons/si";
+
   
   import "../styles/components/technologiescontainer.sass";
   
@@ -16,6 +24,10 @@ import {
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Intermediário"  },
     { id: "mysql", name: "MySQL", icon: <DiMysql />, level: "Intermediário" },
     { id: "react", name: "React", icon: <DiReact />, level: "Intermediário" },
+    {id: "docker", name: "Docker", icon: <DiDocker />, level: "Básico"},
+    {id: "sass", name: "Sass", icon: <SiSass />, level: "Intermediário"},
+    { id: "ts", name: "Typescript" ,icon : <SiTypescript/>, level: "Intermediário"},
+    { id: "twind",name:"Tailwind CSS", icon:<SiTailwindcss/>,level:"Intermediário" },
   ];
    
   const TechnologiesContainer = () => {
