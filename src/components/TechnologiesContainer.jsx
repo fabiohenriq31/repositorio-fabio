@@ -21,13 +21,13 @@ import {
     { id: "html", name: "HTML5", icon: <DiHtml5 />, level: "Avançado" },
     { id: "css", name: "CSS3", icon: <DiCss3 />, level: "Avançado" },
     { id: "js", name: "JavaScript", icon: <DiJsBadge />, level: "Intermediário" },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Intermediário"  },
-    { id: "mysql", name: "MySQL", icon: <DiMysql />, level: "Intermediário" },
-    { id: "react", name: "React", icon: <DiReact />, level: "Intermediário" },
-    {id: "docker", name: "Docker", icon: <DiDocker />, level: "Básico"},
-    {id: "sass", name: "Sass", icon: <SiSass />, level: "Intermediário"},
     { id: "ts", name: "Typescript" ,icon : <SiTypescript/>, level: "Intermediário"},
+    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, level: "Intermediário"  },
+    { id: "react", name: "React", icon: <DiReact />, level: "Intermediário" },
     { id: "twind",name:"Tailwind CSS", icon:<SiTailwindcss/>,level:"Intermediário" },
+    {id: "sass", name: "Sass", icon: <SiSass />, level: "Intermediário"},
+    { id: "mysql", name: "MySQL", icon: <DiMysql />, level: "Intermediário" },
+    {id: "docker", name: "Docker", icon: <DiDocker />, level: "Básico"}, 
   ];
    
   const TechnologiesContainer = () => {
