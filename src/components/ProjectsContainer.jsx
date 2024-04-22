@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { FaReact, FaJsSquare, FaHtml5, FaCss3, FaPython, FaNode } from 'react-icons/fa';
-import { SiSass, SiTypescript, SiFastify, SiSqlite, SiKnexdotjs, SiZod, SiEslint } from 'react-icons/si';
+import { SiSass, SiTypescript, SiFastify, SiSqlite, SiZod, SiEslint } from 'react-icons/si';
 import '../styles/components/projectscontainer.sass';
 
 
@@ -19,7 +19,6 @@ const ProjectsContainer = () => {
             <span className='ts-icon'><SiTypescript /></span>
             <span className='fast-icon'><SiFastify /></span>
             <span className='sql-icon'><SiSqlite /></span>
-            <span className='knex-icon'><SiKnexdotjs /></span>
             <span className='zod-icon'><SiZod /></span>
             <span className='eslint-icon'><SiEslint /></span>
           </div>
