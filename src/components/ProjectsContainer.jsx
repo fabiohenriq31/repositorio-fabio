@@ -16,8 +16,8 @@ const ProjectsContainer = () => {
             <a href="https://github.com/fabiohenriq31/espaco-aprender-front-end" target="_blank"><span>Projeto Espaço Aprender (Front-End)</span></a>
           </div>
           <div className="item-right">
-            <span className='react-icon'><FaReact /></span>
-            <span className='css-icon'><FaCss3 /></span>                     
+            <span className='react-icon' data-name="React"><FaReact /></span>
+            <span className='css-icon' data-name="Css"><FaCss3 /></span>                     
           </div>
         </div>
       <div className="list-item">
