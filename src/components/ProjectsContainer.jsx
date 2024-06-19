@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { FaReact, FaJsSquare, FaHtml5, FaCss3, FaPython, FaNode } from 'react-icons/fa';
-import { SiSass, SiTypescript, SiFastify, SiSqlite, SiZod, SiEslint } from 'react-icons/si';
+import { SiSass, SiTypescript, SiFastify, SiSqlite, SiZod, SiEslint, SiMongodb } from 'react-icons/si';
+import { IoLogoFirebase } from "react-icons/io5";
 import '../styles/components/projectscontainer.sass';
 
 
@@ -10,6 +11,26 @@ const ProjectsContainer = () => {
     <div>
       <h2>Projetos</h2>
       <div className="list-container">
+      <div className="list-item">
+          <div className="item-left">
+            <a href="https://github.com/fabiohenriq31/espaco-aprender-front-end" target="_blank"><span>Projeto Espaço Aprender (Front-End)</span></a>
+          </div>
+          <div className="item-right">
+            <span className='react-icon'><FaReact /></span>
+            <span className='css-icon'><FaCss3 /></span>                     
+          </div>
+        </div>
+      <div className="list-item">
+          <div className="item-left">
+            <a href="https://github.com/fabiohenriq31/espaco-aprender-back-end" target="_blank"><span>Projeto Espaço Aprender (Back-End)</span></a>
+          </div>
+          <div className="item-right">
+            <span className='node-icon'><FaNode /></span>
+            <span className='js-icon'><FaJsSquare /></span>
+            <span className='mongo-icon'><SiMongodb /></span> 
+            <span className='fire-icon'><IoLogoFirebase /></span>                    
+          </div>
+        </div>
         <div className="list-item">
           <div className="item-left">
             <a href="https://github.com/fabiohenriq31/repositorio-fabio" target="_blank"><span>API REST com Node</span></a>
